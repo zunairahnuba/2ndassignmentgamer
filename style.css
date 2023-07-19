@@ -1,0 +1,395 @@
+* {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+    background-color: #FFF;
+
+}
+
+.nav-container {
+    display: flex;
+    max-width: 1050px;
+    margin: 0px auto;
+
+}
+
+.nav-logo {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.nav-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.nav-logo img {
+    height: 25px;
+    width: 50px;
+}
+
+.nav-logo p {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.g {
+    color: #FF42A5;
+}
+
+
+.nav-text a {
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+
+.banner {
+    background-color: rgba(140, 87, 238, 0.03);
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 0 auto;
+    height: 75vh;
+    padding: 20px;
+
+
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+}
+
+.banner-image img {
+
+    height: 100%;
+    width: 100%;
+}
+
+.baaner-1st-title {
+    color: #0B0223;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0px 0px;
+
+}
+
+.baaner-2nd-title {
+
+    font-size: 70px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px 0px;
+}
+
+.banner-content li {
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.universal-button {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 15px 30px;
+    border: none;
+
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.button-2 {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 15px 30px;
+    border: none;
+}
+
+.gamer {
+    background-color: rgba(255, 66, 165, 0.03);
+}
+
+.gamer-container {
+    max-width: 1050px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.gamer-image {
+    max-width: 60%;
+}
+
+.gamer-image img {
+    max-width: 100%;
+}
+
+.gamer-content {
+    max-width: 40%;
+    text-align: right;
+}
+
+.gamer-title {
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gamer-description {
+    color: #534C64;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 20px 0px;
+}
+
+.gamer-content h3 {
+    font-size: 15px;
+    color: #534C64;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.gamer-content h2 {
+    color: #534C64;
+    font-weight: 700;
+    margin-top: 0px;
+
+}
+
+.online-games {
+    margin: 80px auto;
+    max-width: 1050px;
+}
+
+.online-games-cards img {
+    width: 250px;
+}
+
+.online-games-cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px
+}
+
+.online-games-content {
+    text-align: center;
+}
+
+.online-games-title {
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.online-games-description {
+    color: #534C64;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.image-text {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #534C64;
+}
+
+.instantly-container {
+    max-width: 950px;
+    margin-left:240px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.instantly-content {
+}
+
+.instantly-title {
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.instantly-description {
+    color: #534C64;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: right;
+}
+
+.play {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.instantly-images {
+    position: relative;
+}
+
+.instantly-image1 {
+    width: 400px;
+}
+
+.instantly-image2 {
+    width: 200px;
+    position: absolute;
+    bottom: -50px;
+    left:-80px;
+}
+.inst-img{
+    border-radius: 8px;
+border: 10px solid #FFF;
+}
+
+
+
+
+
+
+
+
+/*responsive part */
+@media screen and (max-width:425px) {
+
+    .nav-container,
+    .nav-text,
+    .banner-container,
+    .gamer-container {
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+
+    .online-games-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gamer-container {
+        margin-top: 100px;
+    }
+
+    .gamer-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .gamer-content h2 {
+        font-size: 18px;
+    }
+
+    .gamer-content h3 {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    .online-games-title {
+        font-size: 25px;
+    }
+
+    .image-text {
+
+        font-size: 9px;
+        text-align: center;
+
+    }
+    .instantly-container{
+        flex-direction: column;
+        margin-left:20px;
+    }
+    .instantly-title, .instantly-description{
+        text-align: center;
+    }
+    .instantly-title{
+        font-size: 25px;
+    }
+    .instantly-image1 {
+        width: 200px;
+
+    }
+    
+    .instantly-image2 {
+        width: 100px;
+    }
+
+}
+
+
+
+@media screen and (min-width:425px) and (max-width:768px) {
+
+    .nav-container,
+    .banner,
+    .gamer {
+        margin: 0px 20px;
+    }
+
+    .online-games-cards {
+        flex-wrap: wrap;
+    }
+
+    .image-text {
+
+        font-size: 9px;
+        text-align: center;
+
+    }
+    .instantly-container{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .instantly-title, .instantly-description{
+        text-align: center;}
+}
